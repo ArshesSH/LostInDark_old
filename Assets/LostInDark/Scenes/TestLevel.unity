@@ -458,6 +458,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlatformLarge (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1719858382812756, guid: 33e5bf86bc5eb8c42a423be6495b68a6, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4519878978676562, guid: 33e5bf86bc5eb8c42a423be6495b68a6, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -843,6 +847,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HUDLoader
       objectReference: {fileID: 0}
+    - target: {fileID: 6076733332822991913, guid: e5f5459a0e4005645bf97f7f4a6a64ae,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6076733332822991924, guid: e5f5459a0e4005645bf97f7f4a6a64ae,
         type: 3}
       propertyPath: m_RootOrder
@@ -1029,9 +1038,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -9087444764514341334, guid: df4bd4e245ddcc0459dbcfdd3b3d2d7d,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: c325d97ce27776645bad5015a39d864d, type: 2}
+    - target: {fileID: 846040802, guid: df4bd4e245ddcc0459dbcfdd3b3d2d7d, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"fJumpPower","value":{"$content":12.0,"$type":"System.Single"},"$version":"A"},{"name":"HasKey","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"HasProjectiles","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623835051334804, guid: df4bd4e245ddcc0459dbcfdd3b3d2d7d, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 1784235645598328, guid: df4bd4e245ddcc0459dbcfdd3b3d2d7d, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784235645598328, guid: df4bd4e245ddcc0459dbcfdd3b3d2d7d, type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4173568434705544, guid: df4bd4e245ddcc0459dbcfdd3b3d2d7d, type: 3}
       propertyPath: m_RootOrder
@@ -1079,8 +1105,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 50304428359922864, guid: df4bd4e245ddcc0459dbcfdd3b3d2d7d,
         type: 3}
+      propertyPath: m_Interpolate
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 50304428359922864, guid: df4bd4e245ddcc0459dbcfdd3b3d2d7d,
+        type: 3}
       propertyPath: m_GravityScale
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 50304428359922864, guid: df4bd4e245ddcc0459dbcfdd3b3d2d7d,
+        type: 3}
+      propertyPath: m_SleepingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 50304428359922864, guid: df4bd4e245ddcc0459dbcfdd3b3d2d7d,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 95234199776639680, guid: df4bd4e245ddcc0459dbcfdd3b3d2d7d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df4bd4e245ddcc0459dbcfdd3b3d2d7d, type: 3}
@@ -1176,6 +1222,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlatformLarge (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1719858382812756, guid: 33e5bf86bc5eb8c42a423be6495b68a6, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4519878978676562, guid: 33e5bf86bc5eb8c42a423be6495b68a6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1232,6 +1282,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 237608102}
     m_Modifications:
+    - target: {fileID: 1719858382812756, guid: 33e5bf86bc5eb8c42a423be6495b68a6, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4519878978676562, guid: 33e5bf86bc5eb8c42a423be6495b68a6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1508,6 +1562,10 @@ PrefabInstance:
     - target: {fileID: 1618294266951460, guid: ffdbf84fafc464c4eac31173f8bd9249, type: 3}
       propertyPath: m_Name
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618294266951460, guid: ffdbf84fafc464c4eac31173f8bd9249, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4186612075757620, guid: ffdbf84fafc464c4eac31173f8bd9249, type: 3}
       propertyPath: m_RootOrder
