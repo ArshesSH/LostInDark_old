@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: CharacterMove
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Start","label":null,"summary":null,"hideLabel":false}],"controlOutputDefinitions":[],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":{"$content":0.0,"$type":"System.Single"},"_type":"System.Single","key":"Speed","label":null,"summary":null,"hideLabel":false},{"hasDefaultValue":true,"defaultValue":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"_type":"UnityEngine.Vector2","key":"Direction","label":null,"summary":null,"hideLabel":false},{"hasDefaultValue":true,"defaultValue":null,"_type":"UnityEngine.Rigidbody2D","key":"RigidBody","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-579.3723,"y":-201.1899},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-959.0,"y":-357.0},"guid":"a7de60f6-ab81-4dd8-81f9-f311ec7c3339","$version":"A","$type":"Bolt.GraphInput","$id":"13"},{"chainable":false,"member":{"name":"velocity","parameterTypes":null,"targetType":"UnityEngine.Rigidbody2D","targetTypeName":"UnityEngine.Rigidbody2D","$version":"A"},"defaultValues":{"target":null,"input":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"}},"position":{"x":-598.0,"y":-357.0},"guid":"2f05bbee-7f4e-4fa9-a1c7-0aefd5780019","$version":"A","$type":"Bolt.SetMember","$id":"15"},{"defaultValues":{},"position":{"x":-598.0,"y":-233.0},"guid":"18f549b8-3324-4858-bcdd-8ad8e3d6ccd7","$version":"A","$type":"Bolt.GenericMultiply","$id":"18"},{"sourceUnit":{"$ref":"13"},"sourceKey":"Start","destinationUnit":{"$ref":"15"},"destinationKey":"assign","guid":"5d7b6ba1-e818-449e-b6c9-a540cfbf6e7a","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"product","destinationUnit":{"$ref":"15"},"destinationKey":"input","guid":"7e65efd1-0774-4d1e-8d1d-36c60090bb07","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"Speed","destinationUnit":{"$ref":"18"},"destinationKey":"a","guid":"0272e82e-da17-4042-9c18-70f23934568b","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"Direction","destinationUnit":{"$ref":"18"},"destinationKey":"b","guid":"24920990-9a7a-4b91-8380-7ec4210ce805","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"RigidBody","destinationUnit":{"$ref":"15"},"destinationKey":"target","guid":"a3fc38bf-6f8b-42c1-bd98-af739de94876","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
