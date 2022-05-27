@@ -110,7 +110,7 @@ GameObject:
   - component: {fileID: 846040802}
   - component: {fileID: 3673258074515988756}
   m_Layer: 13
-  m_Name: TestPlayer
+  m_Name: MoveTestPlayer_Script
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -231,8 +231,8 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 30
-  m_Material: {fileID: 6200000, guid: c325d97ce27776645bad5015a39d864d, type: 2}
+  m_GravityScale: 3
+  m_Material: {fileID: 0}
   m_Interpolate: 2
   m_SleepingMode: 0
   m_CollisionDetection: 1
@@ -292,7 +292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"JumpPower","value":{"$content":12.0,"$type":"System.Single"},"$version":"A"},{"name":"HasKey","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"HasProjectiles","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"maxSpeed","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"groundAcceleration","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"groundDeceleration","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"Gravity","value":{"$content":50.0,"$type":"System.Single"},"$version":"A"},{"name":"jumpSpeed","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"jumpAbortSpeedReduction","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"MoveVector","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &3673258074515988756
 MonoBehaviour:
